@@ -10,8 +10,8 @@ def login(request):
 
 def guest(request):
     form = guestForm()
-    return render(request, 'guest.html', {'form':form})
+    return render(request, 'Guest.html', {'form':form})
 
 def host(request):
     form = hostForm()
-    return render(request, 'host.html', {'form':form})
+    return render(request, 'Host.html', {'form':form})

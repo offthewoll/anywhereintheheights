@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
-
-<link href="https://fonts.googleapi s.com/css?family=Playball" rel="stylesheet">
-
-<link href = "Css/Index.css" rel = "stylesheet" type = "text/css">
-
-</head>
-<header>
-  <div>
-    <a href ="index.html "> <div id = "logo"></div></a>
-      <nav>
-        <ul>
-          <li><a href = "index.html">Home</a></li>
-          <li><a href = "Guest.html "> Find A Meal</a> </li>
-          <li><a href = "Host.html " >  Host a Meal</a></li>
-            
-        
-        </ul>
-      </nav>
-        </div>
-</header>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{%block css %}<link href = "{% static 'Css/Index.css' %}" rel = "stylesheet" type = "text/css">{% endblock %}
+{% block content %}
 <div id = "banner">
   <div id = "banner-text">Anywhere in the heights</div>
   
@@ -40,17 +21,4 @@
   </div>
 <img src = "https://static.wixstatic.com/media/6a7d52_98cb52e9382346bf969474a9cd45a40f.jpg/v1/fill/w_394,h_164,al_c,lg_1,q_80/6a7d52_98cb52e9382346bf969474a9cd45a40f.jpg">
 </div>
-
-<footer>
-  <div class = "footer">
-    
-    <img src = "https://static.wixstatic.com/media/6a7d52_6b19bd955b7742ad97a4a23a38916224.png/v1/fill/w_96,h_51,al_c,usm_0.66_1.00_0.01/6a7d52_6b19bd955b7742ad97a4a23a38916224.png">
-    <h1>With Support From:
-    </h1>
-  <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Yeshiva_University.svg/490px-Yeshiva_University.svg.png">  <p style = "font-size:50px">Yeshiva University</p>
-    
-  </div>
-   
-    
-  </div>
-</footer>
+{% endblock %}
