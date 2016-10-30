@@ -1,0 +1,236 @@
+.display-container{
+  background-color:#0088CB;
+  
+  display:block;
+  height:250px;
+  margin:0 auto;
+  text-align:center;
+  width:100%;
+}
+.display{
+  
+
+  display:inline-block;
+  height:auto;
+  
+  width:300px;
+  
+}
+.display img{
+  height:250px;
+  width:100%;
+}
+.one{
+  color:white;
+  display:inline-block;
+  font-size:50px;
+  font-family:cursive;
+  
+  width:342px;
+}
+/*Header*/
+html,body{
+  margin:0;
+}
+a{
+  color:gray;
+  font-family:sans-serif;
+  text-decoration:none;
+ 
+}
+header{
+  background-color:#FFFFFF;
+  display:block;
+  height:100px;
+  
+  margin:1;
+  
+  width:100%;
+}
+
+.lightgray{
+  color: 	#DCDCDC	
+}
+#logo{
+  background-image:url('https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Yeshiva_University.svg/490px-Yeshiva_University.svg.png');
+  background-size:cover;
+  border:;
+  display:inline-block;
+  height:90px;
+  margin: 1px 10% 1px 10% ;
+  vertical-align:top;
+  width:90px;
+}
+nav{
+  border:;
+  
+  display:inline-block;
+  height:70px;
+  margin:20px 0;
+  position:relative;
+  vertical-align:top;
+  width:700px;
+  
+}
+ul{
+  list-style-type:none;
+  border:;
+  margin:6px 0;
+}
+ul li{
+  border-right:solid thin;
+  color:#727272;
+  display:inline-block;
+  font-family:sans-serif;
+  font-weight:700;
+  font-size:20px;
+  margin:0 20px;
+  padding:10px 30px;
+}
+ul li:hover{
+  
+}
+/*Banner*/
+.banner{
+  background-image:url('https://static.wixstatic.com/media/84770f_bc0c51d62df84302a5eb68a3f46112b9.jpg/v1/crop/w_980,h_209,al_c,q_85/84770f_bc0c51d62df84302a5eb68a3f46112b9.jpg');
+  background-repeate:no-repeat;
+  background-size:cover;
+  
+  height:350px;
+  float:right;
+  width:100%;
+}
+.banner-text{
+  background-color:#EC5F1C;
+  
+  height:350px;
+  margin-left:150px;
+  position:relative;
+  float:left;
+  text-align:center;
+  width:400px;
+}
+.banner-text p{
+  color:white;
+  font-size:150px;
+  margin:0;
+  
+  padding:50px;
+}
+.banner-text h1{
+  color:white;
+  font-family: 'Playball', cursive;
+  
+  font-size:100px;
+  margin:0;
+  margin-top:90px;
+  
+}
+/*Body*/
+#body{
+  background-color:#ECECEC;
+  
+  height:auto;
+  text-align:center;
+  
+}
+#left-side{
+  background-color:#ECECEC;
+  border:;
+  display:inline-block;
+  height:auto;
+  margin-right:x;
+  
+  vertical-align:top;
+  width:350px;
+}
+
+#left-side {
+  color:gray;
+  line-height:40px;
+  font-family:sans-serif;
+  font-size:20px;
+  text-align:left;
+}
+#right-side{
+  background-color:white;
+  border-radius:2%;
+  border:solid brown;
+  display:inline-block;
+  text-align:left;
+  width:700px;
+  vertical-align:top;
+}
+#right-side p {
+  color:gray;
+  font-size:20px;
+  
+  font-family:sans-serif;
+  margin-left:20px;
+}
+#right-side h1{
+  color:gray;
+  font-weight:100;
+  margin-left:20px;
+  font-family:sans-serif;
+}
+input[type=text]{
+  border-radius:2%;
+  margin-left:20px;
+  margin-top:20px;
+  padding:10px;
+  width:70%
+}
+input[type=checkbox]{
+  
+  margin-left:20px;
+  margin-top:20px;
+}
+label{
+  color:gray;
+  font-family:sans-serif;
+  font-size:15px;
+  line-height:20px;
+}
+button{
+  background-color:#015697;
+  border-radius:2%;
+  color:white;
+  display:block;
+  font-size:30px;
+  margin:30px auto;
+  padding:20px 50px;
+}
+
+/*Footer*/
+footer{
+  background-color:white;
+  border:;
+  color:green;
+  height:300px;
+  margin-top:100px;
+  text-align:center;
+  width:100%;
+}
+.footer{
+  border: ;
+  color:gray;
+  display:inline-block;
+  font-family:sans-serif;
+  font-weight:100;
+  height:300px;
+  
+  vertical-align:top;
+  width:50%;
+  
+}
+.footer p {
+  color:#035898;
+  display:inline-block;
+}
+.footer img{
+  display:inline-block;
+  height:100px;
+  width:150px;
+  
+}

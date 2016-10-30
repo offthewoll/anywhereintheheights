@@ -1,0 +1,124 @@
+html,body{
+  margin:0;
+}
+a{
+  color:gray;
+  font-family:sans-serif;
+  text-decoration:none;
+ 
+}
+header{
+  background-color:#FFFFFF;
+  display:block;
+  height:100px;
+  
+  margin:1;
+  
+  width:100%;
+}
+
+.lightgray{
+  color: 	#DCDCDC	
+}
+#logo{
+  background-image:url('https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Yeshiva_University.svg/490px-Yeshiva_University.svg.png');
+  background-size:cover;
+  border:;
+  display:inline-block;
+  height:90px;
+  margin: 1px 10% 1px 10% ;
+  vertical-align:top;
+  width:90px;
+}
+nav{
+  border:;
+  bottom:10px;;
+  display:inline-block;
+  height:70px;
+  margin:20px 0;
+  position:relative;
+  vertical-align:top;
+  width:900px;
+  
+}
+ul{
+  list-style-type:none;
+  border:;
+  margin:6px 0;
+}
+ul li{
+  border-right:solid thin;
+  color:#727272;
+  display:inline-block;
+  font-family:sans-serif;
+  font-weight:700;
+  font-size:20px;
+  margin:0 30px;
+  padding:10px 30px;
+}
+ul li:hover{
+  color:	
+}
+/*Banner*/
+#banner{
+  background-image:url('https://static.wixstatic.com/media/5de99cfd8f2d42c79041750360efbb96.jpg/v1/fill/w_1013,h_447,al_bl,q_85,usm_0.66_1.00_0.01/5de99cfd8f2d42c79041750360efbb96.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:block;
+  float:right;
+  font-family:sans-serif;
+  font-size:20px;
+  height:100vh;
+  
+  text-align:center;
+  width:100%;; 
+}
+input[type=text]{
+  margin:20px;
+  padding:10px;
+  width:70%;
+}
+button{
+  background-color:#015697;
+  border:none;
+  border-radius:5%;
+  bottom:50px;
+  color:white;
+  font-family:sans-serif;
+  font-size:20px;
+  right:35%;
+  padding:20px 50px;
+  position:absolute;
+}
+/*Log In*/
+#banner h1{
+  
+  font-family:Playball;
+  font-size:50px;
+  text-decoration:underline;
+  
+}
+#login-container{
+  background-color:#FF7722;
+  border-radius:5%;
+  display:inline-block;
+  height:75vh;
+  margin-top:100px;
+  margin-left:100px;
+  margin-right:150px;
+  position:relative;
+  vertical-align:top;
+  width:400px;
+}
+
+/*Sign Up Container*/
+#signup{
+  background-color:#CD661D;
+  border-radius:5%;
+  display:inline-block;
+  height:75vh;
+  margin-top:100px;
+  position:relative;
+  vertical-align:top;
+  width:600px;
+}
