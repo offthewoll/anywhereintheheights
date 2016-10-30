@@ -9,7 +9,9 @@ def login(request):
     return render(request, 'login.html', {'form':form})
 
 def guest(request):
-    return render(request, 'guest.html', {'form':guestForm})
+    form = guestForm()
+    return render(request, 'guest.html', {'form':form})
 
 def host(request):
-    return render(request, 'host.html', {'form':host_form})
+    form = hostForm()
+    return render(request, 'host.html', {'form':form})
